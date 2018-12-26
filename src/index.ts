@@ -1,4 +1,1 @@
-
-export class HelloWorld {
-
-}
+export * from "./App";

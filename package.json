@@ -7,7 +7,7 @@
     "dev": "webpack --mode development",
     "start": "webpack-dev-server --mode development",
     "tslint": "tslint -c tslint.json 'src/**/*.ts'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start"
   },
   "repository": {
     "type": "git",
@@ -26,12 +26,25 @@
   },
   "homepage": "https://github.com/monkeymagiic/typescript-library-seed",
   "devDependencies": {
+    "@types/jasmine": "2.8.7",
     "awesome-typescript-loader": "^5.0.0",
     "tslint": "^5.10.0",
     "tslint-eslint-rules": "^5.3.1",
     "typescript": "^3.2.2",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.13"
+    "webpack-dev-server": "^3.1.13",
+    "webpack-merge": "4.1.2",
+    "istanbul-instrumenter-loader": "3.0.1",
+    "jasmine-core": "3.3.0",
+    "karma": "3.1.4",
+    "karma-coverage": "1.1.2",
+    "karma-jasmine": "2.0.1",
+    "karma-phantomjs-launcher": "1.0.4",
+    "karma-sourcemap-loader": "0.3.7",
+    "karma-webpack": "3.0.5",
+    "phantomjs-prebuilt": "2.1.16"
+  },
+  "dependencies": {
   }
 }
