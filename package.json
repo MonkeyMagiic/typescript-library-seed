@@ -1,5 +1,5 @@
 {
-  "name": "typescript-webpack-seed",
+  "name": "rxjs-typescript-webpack-seed",
   "version": "0.0.1",
   "description": "A Starter Seed for TypeScript and Webpack Project",
   "main": "index.js",
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/monkeymagiic/typescript-library-seed",
   "devDependencies": {
+    "rxjs-tslint": "^0.1.5",
     "@types/jasmine": "2.8.7",
     "awesome-typescript-loader": "^5.0.0",
     "tslint": "^5.10.0",
@@ -46,5 +47,6 @@
     "phantomjs-prebuilt": "2.1.16"
   },
   "dependencies": {
+    "rxjs": "^6.2.1"
   }
 }
